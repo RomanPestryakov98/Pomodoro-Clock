@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro Clock</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="page">
+  <div class="wrapper">
+    <header class="header">
+      <h1 class="header__title">Pomodoro Clock</h1>
+    </header>
+    <main class="content">
+      <section class="pomodoro">
+        <audio src="audio/small_bell_service_or_elevator_18043.mp3"></audio>
+        <div class="pomodoro__settings settings">
+          <div class="settings__length">
+            <h2 class="settings__text">Break Length</h2>
+            <div class="settings__customization customization">
+              <button type="button" class="customization__button customization__button_type_minus">-</button>
+              <div class="customization__counter" id="break">5</div>
+              <button type="button" class="customization__button customization__button_type_plus">+</button>
+            </div>
+          </div>
+          <div class="settings__length">
+            <h2 class="settings__text">Session Length</h2>
+            <div class="settings__customization customization" id="session">
+              <button type="button" class="customization__button customization__button_type_minus">-</button>
+              <div class="customization__counter" id="session-time">25</div>
+              <button type="button" class="customization__button customization__button_type_plus">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pomodoro__timer timer">
+          <h2 class="timer__title">Session</h2>
+          <p class="timer__clock">25:00</p>
+        </div>
+
+        <div class="pomodoro__buttons">
+          <button type="button" class="pomodoro__button pomodoro__button_type_start">Start</button>
+          <button type="button" class="pomodoro__button pomodoro__button_type_reset">Reset</button>
+        </div>
+
+      </section>
+    </main>
+  </div>
+  <script src="script/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+.pomodoro__button {
+  border-radius: 6px;
+  border: 1px solid rgba(175, 47, 47, 0.2);
+  font-size: 21px;
+  font-weight: 600;
+  margin: 15px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease 0s;
+}
+
+.pomodoro__button:hover {
+  background-color: rgba(175, 47, 47, 0.2);
+}

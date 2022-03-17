@@ -1,0 +1,30 @@
+@import url('../vendor/normalize.css');
+
+
+@import url('../blocks/wrapper/wrapper.css');
+
+
+@import url('../blocks/page/page.css');
+
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__title/header__title.css');
+
+@import url('../blocks/pomodoro/pomodoro.css');
+@import url('../blocks/pomodoro/__buttons/pomodoro__buttons.css');
+@import url('../blocks/pomodoro/__button/pomodoro__button.css');
+
+@import url('../blocks/settings/settings.css');
+@import url('../blocks/settings/__length/settings__length.css');
+@import url('../blocks/settings/__text/settings__text.css');
+
+@import url('../blocks/customization/customization.css');
+@import url('../blocks/customization/__counter/customization__counter.css');
+@import url('../blocks/customization/__button/customization__button.css');
+
+@import url('../blocks/timer/timer.css');
+@import url('../blocks/timer/__clock/timer__clock.css');
+@import url('../blocks/timer/__title/timer__title.css');
+
+
+
